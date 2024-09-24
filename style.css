@@ -1,0 +1,147 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FFFFFF;
+    padding: 2%;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 20px 0;
+    color: #5F574E;
+
+}
+
+img{
+    width: 100%;
+    height: 500px;
+    padding: 0;
+    box-shadow: 01px 1px 7px 1px rgba(0,0,0,0.20);
+    border-radius: 10px;
+       
+}
+
+#simple{
+    padding: 2% 0 0;
+}
+.preparation-time{
+    background-color: #FFF5FA;
+    width: 100%;
+    height: 200px;
+    padding: 40px;
+    margin: 20px 0;
+    border-radius: 10px;
+    color: #5F574E;
+    box-shadow: -1px 2px 7px 1px rgba(0,0,0,0.20); ;
+    
+}
+h1{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2{
+    color: #854632;
+    font-family: "Young Serif", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3{
+    color: #7B284F;
+}
+
+
+
+
+ul li::marker{
+    color:#854632 ;
+}
+ol li::marker{
+    color:  #854632;
+}
+strong{
+    color:#5F574E;
+    font-weight: bold;
+
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+.nutrition-table ul{
+    list-style-type: none;
+    padding: 0 0;
+    margin: 0;
+}
+
+.nutrition-table li {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px 0;
+}
+
+.nutrition-table hr {
+    margin: 0;
+    border: none;
+    border-top: 1px solid #ddd;
+    font-family:"Outfit", system-ui;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+
+
+.tab{
+     font-weight:bold;
+     padding-right: 50%; 
+     color: #854632;
+     
+}
+
+
+@media screen and (max-width: 576px) {
+    body {
+        padding: 2%;
+        margin: 2%;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        max-height: 100vh;
+        object-fit: cover;
+        padding: 0;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    #omelette-container {
+        margin-bottom: 20px;
+    }
+
+    #simple {
+        padding: 20px;
+    }
+    /* Padding for bullets */
+    ul, ol {
+        padding-left: 20px; /* Adjust this value as needed */
+    }
+
+    .nutrition-table ul {
+        padding-left: 0; /* Override for specific ul if needed */
+    }
+
+}
